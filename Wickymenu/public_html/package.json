@@ -1,0 +1,10 @@
+{
+	"name": "Wickybox",
+	"version": "1.0.0",
+	"author": "James Wills",
+	"license": "(MIT) UNLICENSED",
+	"dependencies": {
+		"gulp": "^3.9.1",
+		"gulp-sass": "^2.3.2"
+	}
+}

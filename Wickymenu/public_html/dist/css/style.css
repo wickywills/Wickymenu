@@ -1,0 +1,21 @@
+.primary {
+  /* First level
+----------------------------------------- */
+  /* Second level
+----------------------------------------- */ }
+  .primary > ul {
+    background: red;
+    position: relative; }
+    .primary > ul > li {
+      display: inline-block; }
+  .primary > ul > li > ul {
+    position: absolute;
+    background: green;
+    left: 0;
+    right: 0;
+    column-count: 4; }
+    .primary > ul > li > ul > li {
+      break-inside: avoid;
+      background: blue; }
+      .primary > ul > li > ul > li > a {
+        background: purple; }
